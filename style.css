@@ -1,0 +1,209 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav,
+.about,
+.choose,
+.location,
+.RealEstate,
+.iD,
+.eD,
+.bC {
+    margin: 0% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-style {
+    color: #ffffff;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+}
+
+.title-para-style {
+    color: #A1D6E2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+}
+
+.iframe-style{
+    border: 0;
+}
+
+#contact {
+    padding: 10px;
+    background-color: #F1F1F2;
+    color: black;
+    margin: 0%;
+}
+
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.phone-style{
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contactPara {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.RealEstate,
+.iD,
+.eD,
+.bC {
+    background-color: #F1F1F2;
+}
+
+
+nav {
+    background-color: #1995AD;
+}
+
+.navbar-nav>li>a {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #A1D6E2 !important;
+}
+
+
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.alegreya-heading {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.alegreya-subheading {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.alegreya-subtitle {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.coverImage {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    filter: brightness(50%);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    list-style-type: none;
+}
+
+ol,
+.about,
+.choose,
+.location {
+    padding: 0% !important;
+}
+
+.bgcolor {
+    background-color: #F1F1F2;
+}
+
+.navBgColor {
+    background-color: #1995AD;
+}
+
+.whitecolor {
+    color: white;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.phone:link,
+.phone:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.img-animation {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+.images {
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px #A1D6E2;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
