@@ -16,11 +16,9 @@ document.getElementById("contactForm").addEventListener("submit", function (even
     } else {
         document.getElementById('formResponse').innerHTML = `<div class="alert alert-danger">Invalid phone number. Please enter a 10-digit phone number.</div>`;
         setTimeout(function() {
-            location.reload(); // Reload the page after 2 seconds
-        }, 2000);
+            location.reload(); // Reload the page after 3 seconds
+        }, 3000);
     }
 
-    // console.log(`Name = ${name}\nMobile Number = ${number}\nRequest = ${message}`);
-
-    // document.getElementById("formResponse").innerHTML = `<div class = " alert alert-success"> Thank you, ${name}! Your request has been sent successfully.</div>`;
+    
 });

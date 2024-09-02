@@ -1,21 +1,18 @@
-* {
-    padding: 0%;
-    margin: 0%;
+.navBarStyle {
+    position: fixed;
+    z-index: 1;
 }
 
-nav,
-.about,
-.choose,
-.location,
-.RealEstate,
-.iD,
-.eD,
-.bC {
-    margin: 0% !important;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.navBgColor{
+    background-color: #1995AD;
+}
+
+.navbar-nav>li>a {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #A1D6E2 !important;
 }
 
 .title-style {
@@ -24,11 +21,16 @@ nav,
 }
 
 .title-para-style {
+    color: #ffa500;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title-para-style1 {
     color: #A1D6E2;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-#map {
+.map {
     display: flex;
     justify-content: center;
 }
@@ -37,17 +39,11 @@ nav,
     border: 0;
 }
 
-#contact {
-    padding: 10px;
+.contact {
     background-color: #F1F1F2;
     color: black;
-    margin: 0%;
 }
 
-footer {
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .phone-style{
     color: #ffffff;
@@ -55,6 +51,10 @@ footer {
 
 h2 {
     text-align: center;
+}
+
+.text-indent{
+    text-indent: 40px;
 }
 
 .contactPara {
@@ -70,21 +70,6 @@ h2 {
 .bC {
     background-color: #F1F1F2;
 }
-
-
-nav {
-    background-color: #1995AD;
-}
-
-.navbar-nav>li>a {
-    color: white;
-}
-
-.dropdown-item:hover {
-    background-color: #A1D6E2 !important;
-}
-
-
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
@@ -144,19 +129,8 @@ li {
     list-style-type: none;
 }
 
-ol,
-.about,
-.choose,
-.location {
-    padding: 0% !important;
-}
-
 .bgcolor {
     background-color: #F1F1F2;
-}
-
-.navBgColor {
-    background-color: #1995AD;
 }
 
 .whitecolor {
@@ -201,9 +175,14 @@ ol,
     width: 300px;
     box-shadow: 5px 5px 5px 5px #A1D6E2;
     border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin:30px 10px 30px 10px; 
+}
+
+.images2{
+    height: 300px;
+    width: 275px;
+    box-shadow: 5px 5px 5px 5px #A1D6E2;
+    border-radius: 20px;
+    margin:30px 10px 30px 10px; 
 }
 
